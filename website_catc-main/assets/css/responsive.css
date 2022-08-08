@@ -10,6 +10,193 @@
 * -----------------------------------------------------------------------------
 *
 **/
+
+@media only screen and (max-width: 999px){
+
+    .bithu_menu_right_buttons {
+        margin-right: -22px;
+        left: 30px;
+        position: absolute;       
+        /* width: 500px; */
+        background-color: #050505;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+
+    .bithu_menu_left_sect {
+        margin-left: 150px;
+        
+        
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    .bithu_menu_right_sect button.connect_btn{
+
+        margin-left: 655px;
+    }
+
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1600px){
+
+    .bithu_menu_right_sect button.connect_btn{
+
+        margin-left: 415px;
+    }
+
+    .bithu_menu_sect {
+        margin-left: -10%;
+    }
+
+    .bithu_menu_list ul li a {
+        margin-right: 58px;
+        font-size: 23px;
+}
+}
+
+
+@media only screen and (min-width: 1340px) and (max-width: 1450px){
+
+    .bithu_menu_right_sect button.connect_btn{
+
+        margin-left: 375px;
+    }
+
+    .bithu_menu_sect {
+        margin-left: -9%;
+    }
+
+    .bithu_menu_list ul li a {
+        margin-right: 63px;
+        font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1340px){
+
+    .bithu_menu_sect {
+        margin-left: 0%;
+    }
+
+
+    .bithu_menu_right_sect button.connect_btn {
+
+        margin-left: 175px;
+    }
+
+    .bithu_menu_left_sect {
+
+        margin-left: -35px;
+    }
+
+    .bithu_menu_list ul li a {
+
+        font-size:20px;
+        margin-right: 28px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1160px) and (max-width: 1200px){
+
+    .bithu_menu_sect {
+        margin-left: 2%;
+    }
+
+
+    .bithu_menu_right_sect button.connect_btn {
+
+        margin-left: 220px;
+    }
+
+    .bithu_menu_left_sect {
+
+        margin-left: -35px;
+    }
+
+    .bithu_menu_list ul li a {
+
+        font-size:20px;
+        margin-right: 25px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1160px){
+
+    .bithu_menu_list{
+
+        margin-right: 0px;
+        margin-left: 100px;
+
+    }
+
+    .bithu_menu_right_sect button.connect_btn{
+
+        margin-left: 177px;
+
+    }
+
+    .bithu_menu_list ul li a {
+
+        font-size:14px;
+        margin-right: 36px;
+    }
+
+
+    .bithu_menu_sect {
+
+        margin-left: -1%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 910px) and (max-width: 990px){
+
+    .bithu_menu_sect {
+        margin-left: 20%;
+    }
+
+
+    .bithu_menu_right_sect button.connect_btn {
+
+        margin-left: 85px;
+    }
+
+    .bithu_menu_left_sect {
+
+        margin-left: -215px;
+        width: 20%;
+    }
+
+    .bithu_menu_list ul li a {
+
+        font-size:14px;
+        margin-right: 24px;
+    }
+
+    .bithu_menu_list {
+
+        margin-right: 10px;
+
+
+    }
+
+
+
+}
+
+
 @media only screen and (min-width: 992px) and (max-width: 2000px){
   
          .buthu_coming_soon_body{
@@ -25,6 +212,9 @@
 
             
         } 
+
+    
+    
     .buthu_mint1_body_right{
         padding-top: 10px;
     }
@@ -110,7 +300,7 @@
         padding-top: 50px;
     }
     
-    .coming_soon_timer .timer ul li{
+    /*.coming_soon_timer .timer ul li{
         height: 70px;
         max-width: 70px;
         font-size: 38px;
@@ -121,24 +311,24 @@
     .coming_soon_timer{
         max-width: 400px;
         margin: auto;
-    }
-    .buthu_cooming_soon_body_content h5{
+    }*/
+    /*.buthu_cooming_soon_body_content h5{
         font-size: 14px;
-        margin-top: 42px;
+        margin-top: 42px;*/
     }
     .comming_son_notify_me_form{
         margin-top: 20px;
     }
-    .buthu_comming_soon_btns{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+    /*.buthu_comming_soon_btns{
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }*/
     
-    .buthu_cooming_soon_body_content h2 {
+    /*.buthu_cooming_soon_body_content h2 {
         margin-bottom: 20px;
         margin-top: 60px;
         font-size: 35px;
-    }
+    }*/
     
     
     .v5-home-content{
@@ -256,7 +446,7 @@
     }
     
     
-}
+
 @media (max-width: 1400px){
     .mint_right_menu_list ul li a{
         line-height: 35px;
@@ -433,9 +623,9 @@
         margin-left: 20px;
     }
     
-    .bithu_menu_list{
+    /* .bithu_menu_list{
         margin-right: 30px;
-    }
+    } */
     .blog-detail-conent1 {
         padding-bottom: 60px;
     }
@@ -692,10 +882,19 @@
         min-height: 100%;
     }
 }
-@media only screen and (max-width: 991px) {
+
+/*@media only screen and (min-width: 1000px) and (max-width:2000) {
+
+    .bithu_menu_list ul li a{
+
+        margin-right: 30%;
+    }
+
+}*/
+
+@media only screen and (max-width: 910px) {
     .buthu_coming_soon_body{
-        /* max-height: 500px; */
-        min-height: 694px;
+        
         height: auto;
         padding-top: 85px;
         padding-bottom: 0px;
@@ -1082,6 +1281,70 @@
     
 }
 
+
+
+@media only screen and (max-height: 740px) {
+
+    .buthu_cooming_soon_body_content h2{
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+
+    
+
+}
+
+@media only screen and (min-height: 500px) {
+
+    .buthu_cooming_soon_body_content{
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+
+
+
+    
+
+}
+
+
+    
+
+
+
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+
+    .buthu_cooming_soon_body_content {
+        font-size: 25px;
+        margin-top: -45%;
+    }
+}
+   
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+
+    .buthu_cooming_soon_body_content {
+        font-size: 25px;
+        margin-top: 75%;
+    }
+}
+    @media only screen and (max-width: 912px) and (max-height: 1368px) {
+
+        .bithu_mint_coming_soon_content{
+
+            overflow: visible;
+        }
+
+        .buthu_cooming_soon_body_content {
+            font-size: 25px;
+            margin-bottom: -195%;
+        }
+       
+    
+
+}
+
+
 @media only screen and (max-width: 767px) {
     
     .bithu_v4_baner_left h2 span .cat_walk_round_shape{
@@ -1319,6 +1582,7 @@
     }
     .buthu_cooming_soon_body_content h2{
         font-size: 25px;
+        margin-top: 90%;
     }
     
     .mint_menu_inner{
@@ -1701,7 +1965,7 @@
     }
     
     .bithu_menu_left_sect{
-        width: 40%;
+        width: 50%;
     }
     
     .blog-detail-conent1 .details-icon ul li {
@@ -1874,6 +2138,15 @@
     .mint_right_menu_list1_content{
         padding-right: 10%;
     }
+
+    .buthu_cooming_soon_body_content{
+        font-size: 25px;
+        margin-top: -86px;
+
+
+
+
+    }
 }
 
 @media (max-width: 360px){
@@ -1890,5 +2163,11 @@
         padding: 0px 20px;
         padding-bottom: 80px;
     }
+
+    .buthu_cooming_soon_body_content{
+    font-size: 25px;
+    margin-top: -24px;
+    }
 }
+
 
